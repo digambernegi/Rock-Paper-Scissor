@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div id="wrapper">
+       <div class="score_box">
+           <h2>Final Scores:</h2>
+           <div class="scores">
+           <span>score</span>
+           <span>1</span>
+       </div>
+    </div>
+
+    <div class="hands">
+
+<div class="rock">
+    <img src="/images/rock.png" alt="" onclick="check('rock')">
+</div>
+
+<div class="paper">
+    <img src="/images/paper.png" alt="" onclick="check('paper')">
+</div>
+
+<div class="scissor">
+    <img src="./images/scissor.png" alt="" onclick="check('scissor')">
+</div>
+</div>
+
+
+<div class="compete">
+    <div class="userhand">
+        <h1>you picked</h1>
+        <img id="userhand"src="/images/rock.png" alt="">
+    </div>
+    
+    <div class="refree">
+        <div class="decision">
+            <h1>YOU WIN</h1>
+            <div class="reset">
+               <button>Reset</button>
+        </div>
+            </div>
+        </div>
+
+    <div class="computer">
+        <h1>Random picked</h1>
+        <div class="computerpicked">
+            <img id="oppohand" src="/images/paper.png" alt="">
+    </div>
+    
+</div>
+</div>
+
+
+
+
+</div> 
+<script src="./script.js"></script>
+</body>
+</html>
