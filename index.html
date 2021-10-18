@@ -10,10 +10,9 @@
 <body>
    <div id="wrapper">
        <div class="score_box">
-           <h2>Final Scores:</h2>
+           <h3>Final Scores:</h3>
            <div class="scores">
-           <span>score</span>
-           <span>1</span>
+           <p>0</p>
        </div>
     </div>
 
@@ -35,21 +34,22 @@
 
 <div class="compete">
     <div class="userhand">
-        <h1>you picked</h1>
+        <h2>USER</h2>
         <img id="userhand"src="/images/rock.png" alt="">
     </div>
     
     <div class="refree">
         <div class="decision">
+            <h2>DECISION</h2>
             <h1>YOU WIN</h1>
             <div class="reset">
-               <button>Reset</button>
+               <button onclick="restart()">Reset</button>
         </div>
             </div>
         </div>
 
     <div class="computer">
-        <h1>Random picked</h1>
+        <h2>OPPONENT</h2>
         <div class="computerpicked">
             <img id="oppohand" src="/images/paper.png" alt="">
     </div>
